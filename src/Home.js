@@ -1,4 +1,17 @@
 import React from "react";
-import "./App.css";
+import "./css/App.css";
+import AddDentist from "./AddDentist";
+import AddPatient from "./AddPatient";
+import SickDentist from "./SickDentist";
 
-export default () => <div>Home!</div>;
+function Home() {
+  return (
+    <div>
+      <AddDentist />
+      <AddPatient />
+      <SickDentist />
+    </div>
+  );
+}
+
+export default Home;
